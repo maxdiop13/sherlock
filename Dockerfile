@@ -24,7 +24,7 @@ LABEL org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.version=$VERSION_TAG \
       website="https://sherlockproject.xyz"
 
-RUN pip3 install --no-cache-dir sherlock-project==$VERSION_TAG
+RUN pip3 install --no-cache-dir sherlock-project
 
 WORKDIR /sherlock
 
